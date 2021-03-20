@@ -1,0 +1,82 @@
+%Example of use of oxmathproblems latex class for problem sheets
+\documentclass{oxmathproblems}
+
+%(un)comment this line to enable/disable output of any solutions in the file
+%\printanswers
+
+%define the page header/title info
+\oxfordterm{SP21}
+\course{Probability}
+\sheetnumber{0}
+\sheettitle{自查作业} %can leave out if no title per sheet
+
+% add further contact details to footer if desired,
+%e.g. email address, or name and email address
+\contact{Zhu Fang, zhufang147@gmail.com}
+
+
+\begin{document}
+
+\begin{questions}
+
+\miquestion 试通过观察牛顿二项式公式：
+  
+\[ 
+  (1+x)^n = C_{n}^{0}  + C_{n}^{1} x + \cdots + C_{n}^{n} x^n
+\]
+来证明下列几个组合恒等式：
+\begin{parts}
+  \part $C_{n}^{0}  + C_{n}^{1}  + \cdots + C_{n}^{n} = 2^n, C_{n}^{0}  - C_{n}^{1}  + \cdots + (-1)^n C_{n}^{n} = 0$.
+  \part $C_{n}^{k} = C_{n}^{n - k }, C_{n}^{k} = C_{n-1}^{k} + C_{n-1}^{k-1}$.
+  \part $C_{n}^{k} = \frac{n}{k} C_{n-1}^{k-1}$.
+  \part $C_{n}^{k} C_{k}^{m} = C_{n}^{m} C_{n-m}^{k-m} = C_{n}^{k-m} C_{n-k+m}^{m}, ~m \leq k \leq n$.
+\end{parts}
+
+\miquestion
+$n$双相异的鞋共$2n$只，随机地分成$n$堆，每堆$2$只．问“各堆都自成一双鞋”这个事件$E$的概率是多少？
+
+
+
+%force a page break for better layout of questions 
+%NOTE: only force pagebreaks at the final stage for perfecting the layout
+%\newpage
+
+\miquestion
+一批产品共$N$个，其中废品有$M$个，现从中随机（或者说随意）取出$n$个，问“其中恰好有$m$个废品”这个事件$E$的概率是多少?
+
+\miquestion
+$n$个男孩，$m$个女孩( $m \leq n + 1$)随机地排成一列．问“ 任意两个女
+孩都不相邻”这个事件$E$的概率是多少?
+
+\miquestion
+考虑分段函数
+$$
+f(x) = \begin{cases}
+  4Cx, &x \in (0,2); \\
+  0, &x \notin (0,2)
+\end{cases}
+$$
+试解决以下几个问题：
+\begin{parts}
+  \part 已知$\int_{0}^{1} f(x) dx = 1$，求解常数$C$.
+  \part 求定积分
+  \[ \int_{1}^{2} f(x) dx.\]
+  \part 计算函数$F(x)$的表达式，$F(x)$的定义为
+  \[ F(x) = \int_{-\infty}^{x} f(t) dt\]
+\end{parts}
+
+\miquestion
+考虑二元函数
+$$
+F(x,y) = 
+  1 - e^{-x} - e^{-y} + e^{-x-y-\lambda xy},
+$$
+其中$\lambda > 0$，试求$\lim_{x \to \infty} F(x,y), \lim_{y \to \infty} F(x,y)$.
+
+
+\miquestion
+计算二重积分
+$$I = \iint_{D} (x^2 + 2y) dD,$$
+其中$D$由$y = x^2, y = 0, x = 1$所围.
+\end{questions}
+\end{document}

@@ -1,0 +1,64 @@
+%Example of use of oxmathproblems latex class for problem sheets
+\documentclass{oxmathproblems}
+
+%(un)comment this line to enable/disable output of any solutions in the file
+%\printanswers
+
+%define the page header/title info
+\oxfordterm{SP21}
+\course{Linear Algebra}
+\sheetnumber{1}
+\sheettitle{第一次作业} %can leave out if no title per sheet
+
+% add further contact details to footer if desired,
+%e.g. email address, or name and email address
+\contact{Zhu Fang, zhufang147@gmail.com}
+
+
+\begin{document}
+
+\textcolor{red}{
+\section*{作业说明}
+\begin{enumerate}
+  \item 请在原模板的题目下面进行解答，建议使用proof环境，具体请使用搜索引擎.
+  \item 题目有些是英文有些是中文，有时会给出教材的章节数和题号.
+  \item 解答请统一使用中文作答.
+  \item 作业打分按照完成度进行打分，对错不严格要求.
+  \item 请在规定时间内上交作业，具体细节请参考课程主页.
+\end{enumerate}
+}
+\newpage
+
+
+
+\begin{questions}
+
+\miquestion 
+给定三维空间中的向量$\bm{x}, \bm{y}, \bm{z}$，其线性组合$a\bm{x} + b\bm{y} + c \bm{z}$一定能充满整个三维空间吗？
+若能请给出证明，若不能请给出反例.
+
+\miquestion
+证明：
+$$
+\sqrt[3]{xyz} \leq \frac{1}{3} (x + y + z).
+$$
+
+\miquestion
+证明：对角占优的矩阵是可逆矩阵，其中对角占优指的是：
+$$
+|a_{ii}| > \sum_{j \neq i } |a_{ij}|.
+$$
+\miquestion
+给定可逆矩阵$\bm{A}$，请问$\bm{A}^{-1}$唯一吗？试给出证明.
+\miquestion
+\begin{itemize}
+  \item Section 1.2 Problem 30.
+  \item Section 2.3 Problem 3, 8, 18, 25, 29, 30, 31.
+  \item Section 2.4 Problem 6, 15, 16, 17, 18, 21, 36, 37, 38.
+  \item Section 2.5 Problem 10, 16, 18, 22, 24, 25, 28, 29, 30, 32, 39, 43, 44.
+\end{itemize}
+
+
+
+\end{questions}
+\end{document}

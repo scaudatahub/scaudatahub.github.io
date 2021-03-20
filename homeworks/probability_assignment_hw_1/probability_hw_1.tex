@@ -1,0 +1,57 @@
+%Example of use of oxmathproblems latex class for problem sheets
+\documentclass{oxmathproblems}
+
+%(un)comment this line to enable/disable output of any solutions in the file
+%\printanswers
+
+%define the page header/title info
+\oxfordterm{SP21}
+\course{Probability}
+\sheetnumber{1}
+\sheettitle{第一次作业} %can leave out if no title per sheet
+
+% add further contact details to footer if desired,
+%e.g. email address, or name and email address
+\contact{Zhu Fang, zhufang147@gmail.com}
+
+
+\begin{document}
+
+\textcolor{red}{
+\section*{作业说明}
+\begin{enumerate}
+  \item 请在原模板的题目下面进行解答，建议使用proof环境，具体请使用搜索引擎.
+  \item 题目有些是英文有些是中文，有时会给出教材的章节数和题号.
+  \item {解答请统一使用中文作答，课本内的题请标好题号，如:第一单元$Problems$部分第$1$题:
+  \[ \text{Unit 1 Problem 1 }. \]
+  }
+  \item 较难的习题在课本上都有答案，请仔细思考后再参考，随后按照自己的思路作答.
+  \item 作业打分按照完成度进行打分，对错不严格要求.
+  \item 请在规定时间内上交作业，具体细节请参考课程主页.
+\end{enumerate}
+}
+\newpage
+
+
+
+\begin{questions}
+
+\miquestion 利用课堂上所学习的概率论公理证明下列推论：
+\begin{parts}
+  \part If $ A \subset B$, then $P(A) \leq P(B)$
+  \part $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
+  \part $P(A \cup B) \leq P(A) + P(B)$
+  \part $P(A \cup B \cup C) = P(A) + P(A^c \cap B) + P(A^c \cap B^c \cap C)$
+\end{parts}
+
+\miquestion
+考虑指标集合$I$，已知对任意的$i, j \in I$，都有$A_i \cap A_j = \emptyset$，问：
+\[ P(\sum_{k \in I}A_k )= \sum_{k \in I} P(A_k)\]
+是否一定成立？若成立请给出证明，若不成立，请举出反例.
+
+\miquestion
+教材第一单元Sample Space and Probability 习题部分：
+\[ 1\sim 4, 6, 9, 11\sim 20, 22, 24, 25, 26, 28, 31, 38, 40, 42\sim 48 \]
+
+\end{questions}
+\end{document}
