@@ -67,7 +67,7 @@
 |      | Fri.2/19 | Eigenvalues and eigenvectors                                 |                                                              |
 |      | Sat.2/20 | Diagonalization                                              |                                                              |
 |      | Sun.2/21 | Diagonalization                                              | hw3 due                                                      |
-| 5    | Mon.2/22 | Markov matrices                                              | [hw4 out](todo)(20 points)                                   |
+| 5    | Mon.2/22 | Markov matrices                                              | [hw4 out](https://www.jianguoyun.com/p/DeC0-LUQuI-XCRigi-gD)(20 points) |
 |      | Tue.2/23 | Differential equations                                       | [hw3 sol out]()                                              |
 |      | Wen.2/24 | Symmetric matrices                                           |                                                              |
 |      | Thu.2/25 | Positive definite matrices                                   |                                                              |
