@@ -67,7 +67,7 @@
 |      | Fri.2/19 | Unit 8 cont.                                        |                                                              |
 |      | Sat.2/20 | Unit 9: Bernoulli and Poisson processes             |                                                              |
 |      | Sun.2/21 | Unit 9 cont.                                        | hw3 due                                                      |
-| 5    | Mon.2/22 | Unit 9 cont.                                        | [hw4 out](todo)(20 points)                                   |
+| 5    | Mon.2/22 | Unit 9 cont.                                        | [hw4 out](https://www.jianguoyun.com/p/DZ1vOV4QuI-XCRiZ5-kD)(20 points) |
 |      | Tue.2/23 | Unit 9 cont.                                        | [hw3 sol out]()                                              |
 |      | Wen.2/24 | Unit 10: Markov chains                              |                                                              |
 |      | Thu.2/25 | Unit 10 cont.                                       |                                                              |
