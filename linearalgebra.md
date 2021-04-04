@@ -74,7 +74,7 @@
 |      | Fri.2/26 | Matrices in engineering/Similar matrices                     |                                                              |
 |      | Sat.2/27 | Singular value decomposition                                 |                                                              |
 |      | Sun.2/28 | Fourier series, FFT, complex matrices                        | hw4 due                                                      |
-| 6    | Mon.3/1  | Linear transformations / Choice of basis                     | [hw5 out]() (20 points)                                      |
+| 6    | Mon.3/1  | Linear transformations / Choice of basis                     | [hw5 out](https://www.jianguoyun.com/p/DXAIhmEQuI-XCRj_-eoD) (20 points) |
 |      | Tue.3/2  | Linear programming                                           | [hw4 sol out](todo)                                          |
 |      | Wen.3/3  | Numerical linear algebra / Computational science             |                                                              |
 |      | Thu.3/4  | review                                                       | hw5 due [hw5 sol out](todo)                                  |
