@@ -2,49 +2,33 @@
 
 = Courses
 == Description
-以下内容是本俱乐部的同志（雾）们需要补习的基础课程内容，采用的材料基于国内外一流高校课程主页的
-材料，但是学习进度要根据时间情况压缩
+以下内容是本俱乐部会员的强化课程计划，包括
+- 基础课程
+- 强化课程
 
-== 2021 Winter Vacation Schedule
+选材范围：
+- 国内外一流高校课程的公开资料
+- 国内外优秀教材
+- 内部资料
 
-=== (Fundamental) Learning LaTeX (due 1.28)
-- [https://baike.baidu.com/item/LaTeX/1212106?fr=aladdin/ 什么是LaTeX] ?
-- 为什么要学习LaTeX ?
-    -- 如今不管是数学还是计算机的主流期刊会议论文，都鼓励甚至强制要求使用LaTeX排版投稿
-    -- LaTeX在公式排版领域，具有无可比拟的优势，不管是做笔记还是写作业，都非常美观
-    -- DataHub 内部课程的所有作业将强制要求使用LaTeX提交
-- 去哪学习LaTeX呢 ?
-    -- [https://www.bilibili.com/video/BV1tg4y1B7f3?from=search&seid=13311079826986403845/ 如何下载以及安装LaTeX ?]
-    -- [http://math.ecnu.edu.cn/~jypan/Latex/index.html 华东师范大学潘建瑜老师 LaTeX 学习资料]
-    -- [https://github.com/CTeX-org/lshort-zh-cn/ 一本LaTeX的小书]
-    -- [https://mathpix.com/ Mathpix] 可以将截图改成LaTeX公式，提高生产力必备
-    -- [https://www.overleaf.com/ Overleaf] 在线编辑器(需要科学上网)
-    -- [http://www.latexstudio.net/ LaTeX Studio] 一个LaTeX资源库
-    -- 如果你会Markdown，并且想尝试将Markdown转化为LaTeX，试试[https://liam.page/2020/03/30/writing-manuscript-in-Markdown-and-typesetting-with-LaTeX/ 这个].
-    -- 推荐一个LaTeX的编辑器，[http://texstudio.sourceforge.net/ TexStudio]
-    -- 如果你想使用VS Code 来写 TeX，可以参考知乎上的配置，点击[https://zhuanlan.zhihu.com/p/38178015 这里]
-:{一些经验} TeX作为一门语言，内容还是很复杂的，但是一般情况下只要求能够使用，最简单的办法就是用别人的模板或者加载一些最简单或最常用的库，剩下的一些不会的直接上网查就可以了，建议迭代学习，大概的路径如下：
-        ~~~
-        简单入门学习 -> 找模板填空-> 开始找机会从头排版(ex: 写作业) -> 遇到问题在互联网上搜索 -> 进一步学习 -> ..
-        ~~~
 
-*下面的两门课程直接点击可到相应的课程主页*：
-=== [./linearalgebra.html Linear Algebra]
+== Fundamental Courses
+~~~
+{}{table}{21basic}
+*课程名称*|*课程主页*||
+LaTeX排版系统| [./latex.html Learning LaTeX]||
+线性代数| [./linearalgebra.html Linear Algebra]||
+概率论| [./probability.html Probability]||
+todo| todo
+~~~
 
-=== [./probability.html Probability]
-
-=== Statistics(optional)
-简单的统计学内容不算很多，因为时间的原因，先不作统一安排，学完概率论之后统计学完全可以自学，这里提供一些自学材料：
-. 在线课程
- .. [http://www.stat.nthu.edu.tw/~swcheng/Teaching/math2820/index.php/ 国立台湾清华大学郑少为老师统计学课程]
- .. [http://www.hezhijian.com.cn/courses/stat/ 隔壁华工何志坚老师课程主页] (ps:可以在华工搞到课表去蹭课:)
- .. [http://staff.ustc.edu.cn/~zwp/teach.htm USTC张伟平老师课程主页]
- .. todo
-. 经典教材
- .. Casella *Statistical Inference*
- .. Wasserman *All of Statistics - A Concise Course in Statistical Inference*
- .. Van de Geer *Mathematical Statistics*
- .. todo
+== Advanced Courses
+~~~
+{}{table}{21advanced}
+*课程名称*|*课程主页*||
+深度学习| [./deeplearning.html Deep Learning]||
+todo|todo
+~~
 
 
 
