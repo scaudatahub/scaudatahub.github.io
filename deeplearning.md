@@ -35,7 +35,9 @@
 | 2021/4/20 | [hw0](https://pan.baidu.com/s/15PKGnyyN-tmrrRFZ32hy3A) |  |  | 提取码：pbw6，Self-Taught，不用交 |
 |    2021/4/20    | [hw1, part1](https://pan.baidu.com/s/1uUwlqTE-rebrgbdyr2J73A) |   2021/4/25   | 2021/4/25 | 提取码：8sfh |
 | 2021/4/20 | [hw1, part2](https://pan.baidu.com/s/1_s6sFAxWYjfwF5Hf2tMIMA) | 2021/4/27 | 2021/4/27 | 提取码：mk0n，可以提交到Kaggle尝试看看自己在Kaggle上的排名 |
-|                   |                |                |  |  |
+| 2021/4/30 | [hw2, part1](https://pan.baidu.com/s/1_O_AHZu8s19BypAaZqqlxQ) |                | 2021/5/2 | 提取码：kczy |
+| 2021/4/30 | [hw2, part2](https://pan.baidu.com/s/16LYxM7u38LhQMK49Wb8sYg) | | 2021/5/2 | 提取码：ghkh |
+|  |  | |  |  |
 
 
 
